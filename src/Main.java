@@ -26,6 +26,8 @@ public class Main {
             System.err.println("Premium account withdraw limit test failed!");
         }
 
+
+
         // Account Closure Test
         StandardAccount account = new StandardAccount(4, -100);
         Bank bank = new Bank();
